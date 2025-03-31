@@ -1,4 +1,4 @@
-savedcmd_rtl8811au.o := gcc -Wp,-MMD,./.rtl8811au.o.d -nostdinc -I/usr/lib/modules/6.13.7-hardened1-1-hardened/build/arch/x86/include -I/usr/lib/modules/6.13.7-hardened1-1-hardened/build/arch/x86/include/generated -I/usr/lib/modules/6.13.7-hardened1-1-hardened/build/include -I/usr/lib/modules/6.13.7-hardened1-1-hardened/build/include -I/usr/lib/modules/6.13.7-hardened1-1-hardened/build/arch/x86/include/uapi -I/usr/lib/modules/6.13.7-hardened1-1-hardened/build/arch/x86/include/generated/uapi -I/usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi -I/usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/generated/uapi -include /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/compiler-version.h -include /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/kconfig.h -include /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/compiler_types.h -D__KERNEL__ -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=branch -fno-jump-tables -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mindirect-branch-cs-prefix -mfunction-return=thunk-extern -fno-jump-tables -mharden-sls=all -fpatchable-function-entry=16,16 -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -ftrivial-auto-var-init=zero -fno-stack-clash-protection -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -fmin-function-alignment=16 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -Wall -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-overflow -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wextra -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -DRANDSTRUCT -fplugin=/usr/lib/modules/6.13.7-hardened1-1-hardened/build/scripts/gcc-plugins/randomize_layout_plugin.so -fplugin=/usr/lib/modules/6.13.7-hardened1-1-hardened/build/scripts/gcc-plugins/latent_entropy_plugin.so -fplugin=/usr/lib/modules/6.13.7-hardened1-1-hardened/build/scripts/gcc-plugins/stackleak_plugin.so -DLATENT_ENTROPY_PLUGIN -DSTACKLEAK_PLUGIN -fplugin-arg-stackleak_plugin-track-min-size=100 -fplugin-arg-stackleak_plugin-arch=x86  -DMODULE  -DKBUILD_BASENAME='"rtl8811au"' -DKBUILD_MODNAME='"rtl8811au"' -D__KBUILD_MODNAME=kmod_rtl8811au -c -o rtl8811au.o rtl8811au.c   ; /usr/lib/modules/6.13.7-hardened1-1-hardened/build/tools/objtool/objtool --hacks=jump_label --hacks=noinstr --hacks=skylake --ibt --orc --retpoline --rethunk --sls --static-call --uaccess --prefix=16  --link  --module rtl8811au.o
+savedcmd_rtl8811au.o := gcc -Wp,-MMD,./.rtl8811au.o.d -nostdinc -I/usr/lib/modules/6.13.7-hardened1-1-hardened/build/arch/x86/include -I/usr/lib/modules/6.13.7-hardened1-1-hardened/build/arch/x86/include/generated -I/usr/lib/modules/6.13.7-hardened1-1-hardened/build/include -I/usr/lib/modules/6.13.7-hardened1-1-hardened/build/include -I/usr/lib/modules/6.13.7-hardened1-1-hardened/build/arch/x86/include/uapi -I/usr/lib/modules/6.13.7-hardened1-1-hardened/build/arch/x86/include/generated/uapi -I/usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi -I/usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/generated/uapi -include /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/compiler-version.h -include /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/kconfig.h -include /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/compiler_types.h -D__KERNEL__ -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=branch -fno-jump-tables -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mindirect-branch-cs-prefix -mfunction-return=thunk-extern -fno-jump-tables -mharden-sls=all -fpatchable-function-entry=16,16 -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -ftrivial-auto-var-init=zero -fno-stack-clash-protection -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -fmin-function-alignment=16 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -Wall -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-overflow -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wextra -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -DRANDSTRUCT -fplugin=/usr/lib/modules/6.13.7-hardened1-1-hardened/build/scripts/gcc-plugins/randomize_layout_plugin.so -fplugin=/usr/lib/modules/6.13.7-hardened1-1-hardened/build/scripts/gcc-plugins/latent_entropy_plugin.so -fplugin=/usr/lib/modules/6.13.7-hardened1-1-hardened/build/scripts/gcc-plugins/stackleak_plugin.so -DLATENT_ENTROPY_PLUGIN -DSTACKLEAK_PLUGIN -fplugin-arg-stackleak_plugin-track-min-size=100 -fplugin-arg-stackleak_plugin-arch=x86 -Wall  -DMODULE  -DKBUILD_BASENAME='"rtl8811au"' -DKBUILD_MODNAME='"rtl8811au"' -D__KBUILD_MODNAME=kmod_rtl8811au -c -o rtl8811au.o rtl8811au.c   ; /usr/lib/modules/6.13.7-hardened1-1-hardened/build/tools/objtool/objtool --hacks=jump_label --hacks=noinstr --hacks=skylake --ibt --orc --retpoline --rethunk --sls --static-call --uaccess --prefix=16  --link  --module rtl8811au.o
 
 source_rtl8811au.o := rtl8811au.c
 
@@ -1143,6 +1143,448 @@ deps_rtl8811au.o := \
   /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/firmware.h \
     $(wildcard include/config/FW_LOADER) \
     $(wildcard include/config/FW_UPLOAD) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/netdevice.h \
+    $(wildcard include/config/DCB) \
+    $(wildcard include/config/HYPERV_NET) \
+    $(wildcard include/config/WLAN) \
+    $(wildcard include/config/AX25) \
+    $(wildcard include/config/MAC80211_MESH) \
+    $(wildcard include/config/NET_IPIP) \
+    $(wildcard include/config/NET_IPGRE) \
+    $(wildcard include/config/IPV6_SIT) \
+    $(wildcard include/config/IPV6_TUNNEL) \
+    $(wildcard include/config/NETPOLL) \
+    $(wildcard include/config/XDP_SOCKETS) \
+    $(wildcard include/config/BQL) \
+    $(wildcard include/config/XPS) \
+    $(wildcard include/config/RFS_ACCEL) \
+    $(wildcard include/config/FCOE) \
+    $(wildcard include/config/XFRM_OFFLOAD) \
+    $(wildcard include/config/NET_POLL_CONTROLLER) \
+    $(wildcard include/config/LIBFCOE) \
+    $(wildcard include/config/NET_SHAPER) \
+    $(wildcard include/config/NETFILTER_EGRESS) \
+    $(wildcard include/config/NET_XGRESS) \
+    $(wildcard include/config/WIRELESS_EXT) \
+    $(wildcard include/config/NET_L3_MASTER_DEV) \
+    $(wildcard include/config/IPV6) \
+    $(wildcard include/config/TLS_DEVICE) \
+    $(wildcard include/config/VLAN_8021Q) \
+    $(wildcard include/config/NET_DSA) \
+    $(wildcard include/config/TIPC) \
+    $(wildcard include/config/ATALK) \
+    $(wildcard include/config/CFG80211) \
+    $(wildcard include/config/IEEE802154) \
+    $(wildcard include/config/6LOWPAN) \
+    $(wildcard include/config/MPLS_ROUTING) \
+    $(wildcard include/config/MCTP) \
+    $(wildcard include/config/NETFILTER_INGRESS) \
+    $(wildcard include/config/NET_SCHED) \
+    $(wildcard include/config/PCPU_DEV_REFCNT) \
+    $(wildcard include/config/GARP) \
+    $(wildcard include/config/MRP) \
+    $(wildcard include/config/NET_DROP_MONITOR) \
+    $(wildcard include/config/CGROUP_NET_PRIO) \
+    $(wildcard include/config/MACSEC) \
+    $(wildcard include/config/DPLL) \
+    $(wildcard include/config/PAGE_POOL) \
+    $(wildcard include/config/DIMLIB) \
+    $(wildcard include/config/RPS) \
+    $(wildcard include/config/NET_FLOW_LIMIT) \
+    $(wildcard include/config/NET_DEV_REFCNT_TRACKER) \
+    $(wildcard include/config/ETHTOOL_NETLINK) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/prefetch.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/arch/x86/include/asm/local.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/dynamic_queue_limits.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/net_namespace.h \
+    $(wildcard include/config/NF_CONNTRACK) \
+    $(wildcard include/config/NF_FLOW_TABLE) \
+    $(wildcard include/config/UNIX) \
+    $(wildcard include/config/IEEE802154_6LOWPAN) \
+    $(wildcard include/config/IP_SCTP) \
+    $(wildcard include/config/NETFILTER) \
+    $(wildcard include/config/NF_TABLES) \
+    $(wildcard include/config/WEXT_CORE) \
+    $(wildcard include/config/XFRM) \
+    $(wildcard include/config/IP_VS) \
+    $(wildcard include/config/MPLS) \
+    $(wildcard include/config/CAN) \
+    $(wildcard include/config/CRYPTO_USER) \
+    $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
+    $(wildcard include/config/NET_NS) \
+    $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/flow.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/in6.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/in6.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netns/core.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netns/mib.h \
+    $(wildcard include/config/XFRM_STATISTICS) \
+    $(wildcard include/config/TLS) \
+    $(wildcard include/config/MPTCP) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/snmp.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/snmp.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/u64_stats_sync.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/arch/x86/include/generated/asm/local64.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/asm-generic/local64.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netns/unix.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netns/packet.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netns/ipv4.h \
+    $(wildcard include/config/IP_ROUTE_MULTIPATH) \
+    $(wildcard include/config/IP_MULTIPLE_TABLES) \
+    $(wildcard include/config/IP_ROUTE_CLASSID) \
+    $(wildcard include/config/IP_MROUTE) \
+    $(wildcard include/config/IP_MROUTE_MULTIPLE_TABLES) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/inet_frag.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/dropreason-core.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/siphash.h \
+    $(wildcard include/config/HAVE_EFFICIENT_UNALIGNED_ACCESS) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netns/ipv6.h \
+    $(wildcard include/config/IPV6_MULTIPLE_TABLES) \
+    $(wildcard include/config/IPV6_SUBTREES) \
+    $(wildcard include/config/IPV6_MROUTE) \
+    $(wildcard include/config/IPV6_MROUTE_MULTIPLE_TABLES) \
+    $(wildcard include/config/NF_DEFRAG_IPV6) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/dst_ops.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/icmpv6.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netns/nexthop.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netns/ieee802154_6lowpan.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netns/sctp.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netns/netfilter.h \
+    $(wildcard include/config/LWTUNNEL) \
+    $(wildcard include/config/NETFILTER_FAMILY_ARP) \
+    $(wildcard include/config/NETFILTER_FAMILY_BRIDGE) \
+    $(wildcard include/config/NF_DEFRAG_IPV4) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/netfilter_defs.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/netfilter.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/in.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/in.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netns/conntrack.h \
+    $(wildcard include/config/NF_CT_PROTO_DCCP) \
+    $(wildcard include/config/NF_CT_PROTO_SCTP) \
+    $(wildcard include/config/NF_CT_PROTO_GRE) \
+    $(wildcard include/config/NF_CONNTRACK_EVENTS) \
+    $(wildcard include/config/NF_CONNTRACK_LABELS) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/netfilter/nf_conntrack_tcp.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/netfilter/nf_conntrack_tcp.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/netfilter/nf_conntrack_dccp.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/netfilter/nf_conntrack_tuple_common.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/netfilter/nf_conntrack_common.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/netfilter/nf_conntrack_common.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/netfilter/nf_conntrack_sctp.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/netfilter/nf_conntrack_sctp.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netns/flow_table.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netns/nftables.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netns/xfrm.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/xfrm.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netns/mpls.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netns/can.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netns/xdp.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netns/smc.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netns/bpf.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netns/mctp.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/net_trackers.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/ref_tracker.h \
+    $(wildcard include/config/REF_TRACKER) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/stackdepot.h \
+    $(wildcard include/config/STACKDEPOT) \
+    $(wildcard include/config/STACKDEPOT_MAX_FRAMES) \
+    $(wildcard include/config/STACKDEPOT_ALWAYS_INIT) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/ns_common.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/skbuff.h \
+    $(wildcard include/config/BRIDGE_NETFILTER) \
+    $(wildcard include/config/NET_TC_SKB_EXT) \
+    $(wildcard include/config/MAX_SKB_FRAGS) \
+    $(wildcard include/config/NET_SOCK_MSG) \
+    $(wildcard include/config/SKB_EXTENSIONS) \
+    $(wildcard include/config/WIRELESS) \
+    $(wildcard include/config/IPV6_NDISC_NODETYPE) \
+    $(wildcard include/config/NETFILTER_XT_TARGET_TRACE) \
+    $(wildcard include/config/NET_SWITCHDEV) \
+    $(wildcard include/config/NET_REDIRECT) \
+    $(wildcard include/config/NETFILTER_SKIP_EGRESS) \
+    $(wildcard include/config/SKB_DECRYPTED) \
+    $(wildcard include/config/NET_RX_BUSY_POLL) \
+    $(wildcard include/config/NETWORK_SECMARK) \
+    $(wildcard include/config/DEBUG_NET) \
+    $(wildcard include/config/FAIL_SKB_REALLOC) \
+    $(wildcard include/config/NETWORK_PHY_TIMESTAMPING) \
+    $(wildcard include/config/MCTP_FLOWS) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/bvec.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/highmem.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/cacheflush.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/arch/x86/include/asm/cacheflush.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/mm.h \
+    $(wildcard include/config/HAVE_ARCH_MMAP_RND_BITS) \
+    $(wildcard include/config/HAVE_ARCH_MMAP_RND_COMPAT_BITS) \
+    $(wildcard include/config/ARCH_USES_HIGH_VMA_FLAGS) \
+    $(wildcard include/config/ARCH_HAS_PKEYS) \
+    $(wildcard include/config/ARCH_PKEY_BITS) \
+    $(wildcard include/config/ARM64_GCS) \
+    $(wildcard include/config/X86) \
+    $(wildcard include/config/PARISC) \
+    $(wildcard include/config/SPARC64) \
+    $(wildcard include/config/ARM64_MTE) \
+    $(wildcard include/config/HAVE_ARCH_USERFAULTFD_MINOR) \
+    $(wildcard include/config/PPC32) \
+    $(wildcard include/config/SHMEM) \
+    $(wildcard include/config/MIGRATION) \
+    $(wildcard include/config/ARCH_HAS_GIGANTIC_PAGE) \
+    $(wildcard include/config/ARCH_HAS_PTE_SPECIAL) \
+    $(wildcard include/config/SPLIT_PTE_PTLOCKS) \
+    $(wildcard include/config/HIGHPTE) \
+    $(wildcard include/config/DEBUG_VM_RB) \
+    $(wildcard include/config/PAGE_POISONING) \
+    $(wildcard include/config/INIT_ON_ALLOC_DEFAULT_ON) \
+    $(wildcard include/config/INIT_ON_FREE_DEFAULT_ON) \
+    $(wildcard include/config/DEBUG_PAGEALLOC) \
+    $(wildcard include/config/ARCH_WANT_OPTIMIZE_DAX_VMEMMAP) \
+    $(wildcard include/config/HUGETLBFS) \
+    $(wildcard include/config/MAPPING_DIRTY_HELPERS) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/pgalloc_tag.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/page_ext.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/stacktrace.h \
+    $(wildcard include/config/ARCH_STACKWALK) \
+    $(wildcard include/config/STACKTRACE) \
+    $(wildcard include/config/HAVE_RELIABLE_STACKTRACE) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/page_ref.h \
+    $(wildcard include/config/DEBUG_PAGE_REF) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/sizes.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/pgtable.h \
+    $(wildcard include/config/ARCH_HAS_NONLEAF_PMD_YOUNG) \
+    $(wildcard include/config/ARCH_HAS_HW_PTE_YOUNG) \
+    $(wildcard include/config/GUP_GET_PXX_LOW_HIGH) \
+    $(wildcard include/config/ARCH_WANT_PMD_MKWRITE) \
+    $(wildcard include/config/HAVE_ARCH_HUGE_VMAP) \
+    $(wildcard include/config/X86_ESPFIX64) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/memremap.h \
+    $(wildcard include/config/DEVICE_PRIVATE) \
+    $(wildcard include/config/PCI_P2PDMA) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/cacheinfo.h \
+    $(wildcard include/config/ACPI_PPTT) \
+    $(wildcard include/config/ARCH_HAS_CPU_CACHE_ALIASING) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/cpuhplock.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/huge_mm.h \
+    $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/vmstat.h \
+    $(wildcard include/config/VM_EVENT_COUNTERS) \
+    $(wildcard include/config/DEBUG_TLBFLUSH) \
+    $(wildcard include/config/PER_VMA_LOCK_STATS) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/vm_event_item.h \
+    $(wildcard include/config/MEMORY_BALLOON) \
+    $(wildcard include/config/BALLOON_COMPACTION) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/asm-generic/cacheflush.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/kmsan.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/dma-direction.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/highmem-internal.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/checksum.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/arch/x86/include/asm/checksum.h \
+    $(wildcard include/config/GENERIC_CSUM) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/arch/x86/include/asm/checksum_64.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/dma-mapping.h \
+    $(wildcard include/config/DMA_API_DEBUG) \
+    $(wildcard include/config/HAS_DMA) \
+    $(wildcard include/config/NEED_DMA_MAP_STATE) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/scatterlist.h \
+    $(wildcard include/config/NEED_SG_DMA_LENGTH) \
+    $(wildcard include/config/NEED_SG_DMA_FLAGS) \
+    $(wildcard include/config/DEBUG_SG) \
+    $(wildcard include/config/SGL_ALLOC) \
+    $(wildcard include/config/ARCH_NO_SG_CHAIN) \
+    $(wildcard include/config/SG_POOL) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/arch/x86/include/asm/io.h \
+    $(wildcard include/config/MTRR) \
+    $(wildcard include/config/X86_PAT) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/arch/x86/include/generated/asm/early_ioremap.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/asm-generic/early_ioremap.h \
+    $(wildcard include/config/GENERIC_EARLY_IOREMAP) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/arch/x86/include/asm/shared/io.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/asm-generic/io.h \
+    $(wildcard include/config/GENERIC_IOMAP) \
+    $(wildcard include/config/TRACE_MMIO_ACCESS) \
+    $(wildcard include/config/HAS_IOPORT) \
+    $(wildcard include/config/GENERIC_IOREMAP) \
+    $(wildcard include/config/HAS_IOPORT_MAP) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/asm-generic/iomap.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/asm-generic/pci_iomap.h \
+    $(wildcard include/config/PCI) \
+    $(wildcard include/config/NO_GENERIC_PCI_IOPORT_MAP) \
+    $(wildcard include/config/GENERIC_PCI_IOMAP) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/logic_pio.h \
+    $(wildcard include/config/INDIRECT_PIO) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/fwnode.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/netdev_features.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/flow_dissector.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/if_ether.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/pkt_cls.h \
+    $(wildcard include/config/NET_CLS_ACT) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/pkt_sched.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/if_packet.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/page_frag_cache.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/net_debug.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netmem.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/seq_file_net.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/seq_file.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/string_helpers.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/ctype.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/string_choices.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/dcbnl.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/dcbnl.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/netprio_cgroup.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/cgroup.h \
+    $(wildcard include/config/DEBUG_CGROUP_REF) \
+    $(wildcard include/config/CGROUP_CPUACCT) \
+    $(wildcard include/config/SOCK_CGROUP_DATA) \
+    $(wildcard include/config/CGROUP_DATA) \
+    $(wildcard include/config/CGROUP_BPF) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/cgroupstats.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/taskstats.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/nsproxy.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/user_namespace.h \
+    $(wildcard include/config/INOTIFY_USER) \
+    $(wildcard include/config/FANOTIFY) \
+    $(wildcard include/config/BINFMT_MISC) \
+    $(wildcard include/config/PERSISTENT_KEYRINGS) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/kernel_stat.h \
+    $(wildcard include/config/GENERIC_IRQ_STAT_SNAPSHOT) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/cgroup-defs.h \
+    $(wildcard include/config/CGROUP_NET_CLASSID) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/bpf-cgroup-defs.h \
+    $(wildcard include/config/BPF_LSM) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/psi_types.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/kthread.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/cgroup_subsys.h \
+    $(wildcard include/config/CGROUP_DEVICE) \
+    $(wildcard include/config/CGROUP_FREEZER) \
+    $(wildcard include/config/CGROUP_PERF) \
+    $(wildcard include/config/CGROUP_HUGETLB) \
+    $(wildcard include/config/CGROUP_PIDS) \
+    $(wildcard include/config/CGROUP_RDMA) \
+    $(wildcard include/config/CGROUP_MISC) \
+    $(wildcard include/config/CGROUP_DEBUG) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/cgroup_refcnt.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/neighbour.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/netlink.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/scm.h \
+    $(wildcard include/config/SECURITY_NETWORK) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/net.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/once.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/sockptr.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/net.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/file.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/security.h \
+    $(wildcard include/config/SECURITY_INFINIBAND) \
+    $(wildcard include/config/SECURITY_NETWORK_XFRM) \
+    $(wildcard include/config/SECURITY_PATH) \
+    $(wildcard include/config/SECURITYFS) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/kernel_read_file.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/bpf.h \
+    $(wildcard include/config/FINEIBT) \
+    $(wildcard include/config/BPF_JIT_ALWAYS_ON) \
+    $(wildcard include/config/INET) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/bpf.h \
+    $(wildcard include/config/BPF_LIRC_MODE2) \
+    $(wildcard include/config/EFFICIENT_UNALIGNED_ACCESS) \
+    $(wildcard include/config/BPF_KPROBE_OVERRIDE) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/bpf_common.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/filter.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/kallsyms.h \
+    $(wildcard include/config/KALLSYMS_ALL) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/bpfptr.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/btf.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/bsearch.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/btf_ids.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/btf.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/rcupdate_trace.h \
+    $(wildcard include/config/TASKS_TRACE_RCU_READ_MB) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/static_call.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/cpu.h \
+    $(wildcard include/config/GENERIC_CPU_DEVICES) \
+    $(wildcard include/config/PM_SLEEP_SMP) \
+    $(wildcard include/config/PM_SLEEP_SMP_NONZERO_CPU) \
+    $(wildcard include/config/ARCH_HAS_CPU_FINALIZE_INIT) \
+    $(wildcard include/config/CPU_MITIGATIONS) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/node.h \
+    $(wildcard include/config/HMEM_REPORTING) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/cpuhotplug.h \
+    $(wildcard include/config/HOTPLUG_CORE_SYNC_DEAD) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/arch/x86/include/asm/static_call.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/arch/x86/include/asm/text-patching.h \
+    $(wildcard include/config/UML_X86) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/memcontrol.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/page_counter.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/vmpressure.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/eventfd.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/eventfd.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/writeback.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/flex_proportions.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/backing-dev-defs.h \
+    $(wildcard include/config/DEBUG_FS) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/blk_types.h \
+    $(wildcard include/config/FAIL_MAKE_REQUEST) \
+    $(wildcard include/config/BLK_CGROUP_IOCOST) \
+    $(wildcard include/config/BLK_INLINE_ENCRYPTION) \
+    $(wildcard include/config/BLK_DEV_INTEGRITY) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/pagevec.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/bio.h \
+    $(wildcard include/config/BLK_DEV_ZONED) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/mempool.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/cfi.h \
+    $(wildcard include/config/CFI_CLANG) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/arch/x86/include/asm/cfi.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/bpf_types.h \
+    $(wildcard include/config/NETFILTER_BPF_LINK) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/lsm.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/lsm/selinux.h \
+    $(wildcard include/config/SECURITY_SELINUX) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/lsm/smack.h \
+    $(wildcard include/config/SECURITY_SMACK) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/lsm/apparmor.h \
+    $(wildcard include/config/SECURITY_APPARMOR) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/lsm/bpf.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/compat.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/netlink.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/netdevice.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/if_ether.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/if_link.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/if_link.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/if_bonding.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/netdev.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/hashtable.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/neighbour_tables.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/wireless.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/wireless.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/ieee80211.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/etherdevice.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/crc32.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/bitrev.h \
+    $(wildcard include/config/HAVE_ARCH_BITREVERSE) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/unaligned.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/unaligned/packed_struct.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/vdso/unaligned.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/cfg80211.h \
+    $(wildcard include/config/NL80211_TESTMODE) \
+    $(wildcard include/config/CFG80211_WEXT) \
+    $(wildcard include/config/CFG80211_DEBUGFS) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/ethtool.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/ethtool.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/net_tstamp.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/rfkill.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/debugfs.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/uapi/linux/nl80211.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/rfkill.h \
+    $(wildcard include/config/RFKILL) \
+    $(wildcard include/config/RFKILL_LEDS) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/linux/leds.h \
+    $(wildcard include/config/LEDS_TRIGGERS) \
+    $(wildcard include/config/LEDS_BRIGHTNESS_HW_CHANGED) \
+    $(wildcard include/config/LEDS_TRIGGER_DISK) \
+    $(wildcard include/config/LEDS_TRIGGER_MTD) \
+    $(wildcard include/config/LEDS_TRIGGER_CAMERA) \
+    $(wildcard include/config/LEDS_GPIO_REGISTER) \
+    $(wildcard include/config/LEDS_TRIGGER_CPU) \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/dt-bindings/leds/common.h \
+  /usr/lib/modules/6.13.7-hardened1-1-hardened/build/include/net/regulatory.h \
 
 rtl8811au.o: $(deps_rtl8811au.o)
 

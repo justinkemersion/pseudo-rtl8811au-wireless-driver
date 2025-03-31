@@ -1,5 +1,6 @@
 # Compiled object files
 *.o
+*.o.cmd  # Add this for kernel build dependency files
 *.ko
 *.mod
 *.mod.c
@@ -26,7 +27,7 @@ dmesg_output.txt
 *.sublime-project
 *.sublime-workspace
 
-# Dependency directories (if you cloned rtl8821au here)
+# Dependency directories
 rtl8821au/
 
 # Miscellaneous
