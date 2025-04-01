@@ -1,6 +1,5 @@
 ### `README.md`
 
-```markdown
 # RTL8811AU WiFi Driver Project
 
 A custom Linux kernel module (`rtl8811au_wifi.ko`) for the TP-Link AC600 USB WiFi adapter (Vendor ID: `0x2357`, Product ID: `0x011e`). This project aims to create a functional driver with basic WiFi capabilities (scanning, potentially connecting) using USB bulk endpoints and `cfg80211`.
